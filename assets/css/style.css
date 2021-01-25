@@ -5665,10 +5665,12 @@ footer {
   float: left;
   width: 100%;
 }
-.loc-mp {
+.loc-mp1 {
   float: left;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  padding:400px;
+  background-image: url("assets/demo/world_map.png");
   width: 100%;
   height: 475px;
 }
