@@ -1669,7 +1669,7 @@ header.style9 .menu-wrp2 nav > div > .hdr-scl + ul:before {
   margin-top: -12.5px;
 }
 /*=== Header Style 10 ===*/
-header.style10 {background-color: rgba(255,255,255,.4);}
+header.style10 {background-color: rgb(255, 255, 255);}
 header.style10.wd-blk-bg {background-color: rgba(14,14,14,.85);}
 header.style10 .menu-wrp2 {
   background-color: transparent;
