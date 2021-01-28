@@ -4701,6 +4701,10 @@ footer {
   float: left;
   width: 100%;
   display: table;
+  box-shadow: 0 0 5px #bfbfbf;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
 }
 .pst-box-styl3.lst {display: table;}
 .pst-box-styl3.rev {direction: rtl;}
@@ -4750,15 +4754,16 @@ footer {
 .pst-inf-styl3 > a {
   line-height: 37px;
   width: 37px;
-  background-color: #f5f5f5;
+  background-color: #22be32;
   display: inline-block;
   text-align: center;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   font-size: 12px;
+  color:#fff;
 }
 .pst-inf-styl3 > a:hover, 
-.pst-inf-styl3 > a:focus {color: #fff;}
+.pst-inf-styl3 > a:focus {color: #fff;background-color: #3266d6;}
 /*===== Fact Style 4 =====*/
 .fact-lst {
   padding-left: 0;
