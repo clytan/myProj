@@ -2358,6 +2358,12 @@ body.sticky-active .sticky-header {
   border-bottom: 2px solid #000;
   background-color: transparent;
 }
+  /* .busns-slut-tbs > ul.nav-tabs li.nav-item a.nav-link:hover, .busns-slut-tbs > ul.nav-tabs li.nav-item a.nav-link:focus, .busns-slut-tbs > ul.nav-tabs li.nav-item a.nav-link{
+    color:#000!important;
+    background-color: #e2bd20;
+    padding:5px;
+    border-bottom:2px solid #e2bd20;
+  } */
 .busns-slut-tbs .tab-content {
   float: left;
   width: 100%;
