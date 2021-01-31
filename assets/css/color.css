@@ -287,19 +287,19 @@ ul.prc-tbl-tb-nv > li.nav-item > a.nav-link:focus,
 blockquote,
 .mnu-wrp
 {
-	border-color: #833dcc;
+	border-color: #22be32;
 }
 
 /*===== Border Top Color =====*/ 
 
 {
-	border-top-color: #833dcc;
+	border-top-color: #22be32;
 }
 
 /*===== Border Right Color =====*/ 
 
 {
-	border-right-color: #833dcc;
+	border-right-color: #22be32;
 }
 
 /*===== Border Bottom Color =====*/
@@ -307,11 +307,11 @@ blockquote,
 .busns-slut-tbs > ul.nav-tabs li.nav-item a.nav-link:focus,
 .busns-slut-tbs > ul.nav-tabs li.nav-item a.nav-link.active
 {
-	border-bottom-color: #833dcc;
+	border-bottom-color: #22be32;
 }
 
 /*===== Border Left Color =====*/ 
 
 {
-	border-left-color: #833dcc;
+	border-left-color: #22be32;
 }
