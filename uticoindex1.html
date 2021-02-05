@@ -21,17 +21,69 @@
     <link rel="stylesheet" href="assets/css/revolution/layers.css">
     <!-- REVOLUTION NAVIGATION STYLES -->
     <link rel="stylesheet" href="assets/css/revolution/navigation.css">
+    <style>
+        #button1{
+  display: inline-block;
+  background-color: #22be32;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button1::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button1:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button1:active {
+  background-color: #555;
+}
+#button1.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Styles for the content section */
+
+line-height: 1.9;
+}
+@media (min-width: 500px) {
+  
+  #button1 {
+    margin: 30px;
+  }
+}
+
+    </style>
     
 </head>
 
 <body itemscope>
     <main>
+        <a name="top"></a>
         <header class="stick style7">
             <div class="">
                 <div class="topbar3">
                     <ul class="tp-lst">
                         <li><i class="fa fa-phone"></i>07-2434610-611</li>
                         <li><i class="fa fa-envelope"></i><a href="#" title="" itemprop="url">info@uticome.com</a></li>
+                        <li><i class="fa fa-map-marker"></i><a href="#" title="" itemprop="url">UAE</a></li>
                     </ul>
                     <a class="gt-qt" href="#" title="" itemprop="url">Get A Quote</a>
                     <div class="scl-btns2">
@@ -43,15 +95,16 @@
                                 class="flaticon-instagram-social-network-logo-of-photo-camera"></i></a>
                     </div>
                 </div><!-- Topbar -->
-                <div class="menu-wrp2 text-center">
-                    <div class="logo"><a href="" title="Logo" itemprop="url"><img src="assets/images/uticologo.png"
-                                height="28" alt="logo4.png" itemprop="image"></a></div>
-                    <nav>
+                <div class="menu-wrp2 text-center" width="79px">
+                    <div class="logo"><a href="" title="Logo" itemprop="url"><img src="assets/images/utico1.png"
+                                height="80" width="80"alt="logo4.png" itemprop="image"></a></div>
+                    <nav style="text-align: left;">
                         <div>
-                            <a class="srch-btn" href="#" title="" itemprop="url"><i class="flaticon-magnifier"></i></a>
+                            <a class="srch-btn" href="#" title="" itemprop="url" style="text-align: center;"><i class="flaticon-magnifier" ></i></a>
                             <ul>
-                                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">About Us</a>
-                                    <ul class="children mirror">
+                                <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">About Us</a>
+                                    
+                                    <ul class="children">
                                         <li><a href="" title="" itemprop="url">History</a></li>
                                         <li><a href="" title="" itemprop="url">Vision & Mission</a></li>
                                         <li><a href="" title="" itemprop="url">Corporate Policy</a></li>
@@ -67,76 +120,26 @@
                                         <li><a href="index13.html" title="" itemprop="url">Homepage 13</a></li> -->
                                     </ul>
                                 </li>
-                                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Service</a>
-                                    <div class="mga-mnu center">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 col-lg-6">
-                                                <div class="mga-lnks">
-                                                    <a href="" title="" itemprop="url">Water</a>
-                                                    <a href="" title="" itemprop="url">Power</a>
-                                                    <a href="" title="" itemprop="url">Utico Trading</a>
-                                                </div>
-                                            </div>
-                                           <div class="col-md-6 col-sm-6 col-lg-6">
-                                                <div class="mga-lnks">
-                                                    <a href="" title="" itemprop="url">EPC</a>
-                                                    <a href="" title="" itemprop="url">Engineering Services</a>
-                                                    <a href="" title="" itemprop="url">Solar Free</a>
-                                                </div>
-                                            </div>
-                                          <!--  <div class="col-md-3 col-sm-6 col-lg-3">
-                                                <div class="mga-lnks">
-                                                    <a href="blog7.html" title="" itemprop="url">Blog Style 7</a>
-                                                    <a href="blog-left-sidebar.html" title="" itemprop="url">Blog Left Sidebar</a>
-                                                    <a href="blog-right-sidebar.html" title="" itemprop="url">Blog Right Sidebar</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-6 col-lg-3">
-                                                <div class="mga-lnks">
-                                                    <a href="blog-detail.html" title="" itemprop="url">Blog Detail</a>
-                                                    <a href="blog-detail-left-sidebar.html" title="" itemprop="url">Blog Detail Left Sidebar</a>
-                                                    <a href="blog-detail-right-sidebar.html" title="" itemprop="url">Blog Detail Right Sidebar</a>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                    </div>
+                                <li class="menu-item-has-children"style="font-weight: bold;"><a href="#" title="" itemprop="url">Service</a>
+                                    <ul class="children">
+                                        <li><a href="" title="" itemprop="url">Water</a></li>
+                                        <li><a href="" title="" itemprop="url">Power</a></li>
+                                        <li><a href="" title="" itemprop="url">Utico Trading</a></li>
+                                        <li><a href="" title="" itemprop="url">EPC</a></li>
+                                        <li><a href="" title="" itemprop="url">Engineering Services</a></li>
+                                        <li><a href="" title="" itemprop="url">Solar Free</a></li>
+                                    </ul>
+                                    
                                 </li>
-                                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Projects</a>
-                                    <div class="mga-mnu center">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 col-lg-6">
-                                                <div class="mga-lnks">
-                                                    <a href="" title="" itemprop="url">Achievements</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6 col-lg-6">
-                                                <div class="mga-lnks">
-                                                    <a href="" title="" itemprop="url">Project Portfolio</a>
-                                                </div>
-                                            </div>
-                                            <!--<div class="col-md-3 col-sm-6 col-lg-3">
-                                                <div class="mga-lnks">
-                                                    <a href="portfolio13.html" title="" itemprop="url">Portfolio Style 13</a>
-                                                    <a href="portfolio14.html" title="" itemprop="url">Portfolio Style 14</a>
-                                                    <a href="portfolio15.html" title="" itemprop="url">Portfolio Style 15</a>
-                                                    <a href="portfolio-detail.html" title="" itemprop="url">Portfolio Detail Style 1</a>
-                                                    <a href="portfolio-detail2.html" title="" itemprop="url">Portfolio Detail Style 2</a>
-                                                    <a href="portfolio-detail3.html" title="" itemprop="url">Portfolio Detail Style 3</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-6 col-lg-3">
-                                                <div class="mga-lnks">
-                                                    <a href="portfolio-detail4.html" title="" itemprop="url">Portfolio Detail Style 4</a>
-                                                    <a href="portfolio-detail5.html" title="" itemprop="url">Portfolio Detail Style 5</a>
-                                                    <a href="portfolio-detail6.html" title="" itemprop="url">Portfolio Detail Style 6</a>
-                                                    <a href="portfolio-detail7.html" title="" itemprop="url">Portfolio Detail Style 7</a>
-                                                    <a href="portfolio-detail8.html" title="" itemprop="url">Portfolio Detail Style 8</a>
-                                                </div>
-                                            </div>
-                                        </div>-->
-                                    </div> 
+                                <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">Projects</a>
+                                    
+                                    <ul class="children">
+                                        <li><a href="" title="" itemprop="url">Achievements</a></li>
+                                        <li><a href="" title="" itemprop="url">Project Portfolio</a></li>
+                                    </ul>
+                                    
                                 </li>
-                                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Partners</a>
+                                <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">Partners</a>
                                      <ul class="children">
                                         <li><a href="" title="" itemprop="url">Valued Partners</a></li>
                                         <li><a href="" title="" itemprop="url">Clients</a></li>
@@ -313,9 +316,11 @@
                             src="assets/images/uticologo.png" height="28" alt="logo.png" itemprop="image"></a></div>
                 <nav>
                     <div>
+                        <a class="srch-btn" href="#" title="" itemprop="url" ><i class="flaticon-magnifier" style="text-align: left;"></i></a>
                         <ul>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">About Us</a>
-                                <ul class="children mirror">
+                            <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">About Us</a>
+                                
+                                <ul class="children">
                                     <li><a href="" title="" itemprop="url">History</a></li>
                                     <li><a href="" title="" itemprop="url">Vision & Mission</a></li>
                                     <li><a href="" title="" itemprop="url">Corporate Policy</a></li>
@@ -331,101 +336,51 @@
                                     <li><a href="index13.html" title="" itemprop="url">Homepage 13</a></li> -->
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Service</a>
-                                <div class="mga-mnu center">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <div class="mga-lnks">
-                                                <a href="" title="" itemprop="url">Water</a>
-                                                <a href="" title="" itemprop="url">Power</a>
-                                                <a href="" title="" itemprop="url">Utico Trading</a>
-                                            </div>
-                                        </div>
-                                       <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <div class="mga-lnks">
-                                                <a href="" title="" itemprop="url">EPC</a>
-                                                <a href="" title="" itemprop="url">Engineering Services</a>
-                                                <a href="" title="" itemprop="url">Solar Free</a>
-                                            </div>
-                                        </div>
-                                      <!--  <div class="col-md-3 col-sm-6 col-lg-3">
-                                            <div class="mga-lnks">
-                                                <a href="blog7.html" title="" itemprop="url">Blog Style 7</a>
-                                                <a href="blog-left-sidebar.html" title="" itemprop="url">Blog Left Sidebar</a>
-                                                <a href="blog-right-sidebar.html" title="" itemprop="url">Blog Right Sidebar</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6 col-lg-3">
-                                            <div class="mga-lnks">
-                                                <a href="blog-detail.html" title="" itemprop="url">Blog Detail</a>
-                                                <a href="blog-detail-left-sidebar.html" title="" itemprop="url">Blog Detail Left Sidebar</a>
-                                                <a href="blog-detail-right-sidebar.html" title="" itemprop="url">Blog Detail Right Sidebar</a>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Projects</a>
-                                <div class="mga-mnu center">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <div class="mga-lnks">
-                                                <a href="" title="" itemprop="url">Achievements</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <div class="mga-lnks">
-                                                <a href="" title="" itemprop="url">Project Portfolio</a>
-                                            </div>
-                                        </div>
-                                        <!--<div class="col-md-3 col-sm-6 col-lg-3">
-                                            <div class="mga-lnks">
-                                                <a href="portfolio13.html" title="" itemprop="url">Portfolio Style 13</a>
-                                                <a href="portfolio14.html" title="" itemprop="url">Portfolio Style 14</a>
-                                                <a href="portfolio15.html" title="" itemprop="url">Portfolio Style 15</a>
-                                                <a href="portfolio-detail.html" title="" itemprop="url">Portfolio Detail Style 1</a>
-                                                <a href="portfolio-detail2.html" title="" itemprop="url">Portfolio Detail Style 2</a>
-                                                <a href="portfolio-detail3.html" title="" itemprop="url">Portfolio Detail Style 3</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6 col-lg-3">
-                                            <div class="mga-lnks">
-                                                <a href="portfolio-detail4.html" title="" itemprop="url">Portfolio Detail Style 4</a>
-                                                <a href="portfolio-detail5.html" title="" itemprop="url">Portfolio Detail Style 5</a>
-                                                <a href="portfolio-detail6.html" title="" itemprop="url">Portfolio Detail Style 6</a>
-                                                <a href="portfolio-detail7.html" title="" itemprop="url">Portfolio Detail Style 7</a>
-                                                <a href="portfolio-detail8.html" title="" itemprop="url">Portfolio Detail Style 8</a>
-                                            </div>
-                                        </div>
-                                    </div>-->
-                                </div> 
-                            </li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Partners</a>
+                            <li class="menu-item-has-children"style="font-weight: bold;"><a href="#" title="" itemprop="url">Service</a>
                                 <ul class="children">
-                                   <li><a href="" title="" itemprop="url">Valued Partners</a></li>
-                                   <li><a href="" title="" itemprop="url">Clients</a></li>
-                                   <li><a href="" title="" itemprop="url">Consultants</a></li>
-                                   <li><a href="" title="" itemprop="url">Uticonsults</a></li>
-                               </ul> 
-                           </li>
-                           <!--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">About</a>
+                                    <li><a href="" title="" itemprop="url">Water</a></li>
+                                    <li><a href="" title="" itemprop="url">Power</a></li>
+                                    <li><a href="" title="" itemprop="url">Utico Trading</a></li>
+                                    <li><a href="" title="" itemprop="url">EPC</a></li>
+                                    <li><a href="" title="" itemprop="url">Engineering Services</a></li>
+                                    <li><a href="" title="" itemprop="url">Solar Free</a></li>
+                                </ul>
+                                
+                            </li>
+                            <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">Projects</a>
+                                
+                                <ul class="children">
+                                    <li><a href="" title="" itemprop="url">Achievements</a></li>
+                                    <li><a href="" title="" itemprop="url">Project Portfolio</a></li>
+                                </ul>
+                                
+                            </li>
+                            <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">Partners</a>
                                  <ul class="children">
-                                   <li><a href="about-me.html" title="" itemprop="url">About Me Style 1</a></li>
-                                   <li><a href="about-me2.html" title="" itemprop="url">About Me Style 2</a></li>
-                                   <li><a href="about.html" title="" itemprop="url">About Style 1</a></li>
-                                   <li><a href="about2.html" title="" itemprop="url">About Style 2</a></li>
-                                   <li><a href="about3.html" title="" itemprop="url">About Style 3</a></li>
-                                   <li><a href="about4.html" title="" itemprop="url">About Style 4</a></li>
-                               </ul> 
-                           </li>-->
-                           <!--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">Contact</a>
-                                 <ul class="children">
-                                   <li><a href="contact.html" title="" itemprop="url">Contact Style 1</a></li>
-                                   <li><a href="contact2.html" title="" itemprop="url">Contact Style 2</a></li>
-                                   <li><a href="contact3.html" title="" itemprop="url">Contact Style 3</a></li>
-                               </ul>
-                           </li>-->
-                       </ul>
+                                    <li><a href="" title="" itemprop="url">Valued Partners</a></li>
+                                    <li><a href="" title="" itemprop="url">Clients</a></li>
+                                    <li><a href="" title="" itemprop="url">Consultants</a></li>
+                                    <li><a href="" title="" itemprop="url">Uticonsults</a></li>
+                                </ul> 
+                            </li>
+                            <!--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">About</a>
+                                  <ul class="children">
+                                    <li><a href="about-me.html" title="" itemprop="url">About Me Style 1</a></li>
+                                    <li><a href="about-me2.html" title="" itemprop="url">About Me Style 2</a></li>
+                                    <li><a href="about.html" title="" itemprop="url">About Style 1</a></li>
+                                    <li><a href="about2.html" title="" itemprop="url">About Style 2</a></li>
+                                    <li><a href="about3.html" title="" itemprop="url">About Style 3</a></li>
+                                    <li><a href="about4.html" title="" itemprop="url">About Style 4</a></li>
+                                </ul> 
+                            </li>-->
+                            <!--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">Contact</a>
+                                  <ul class="children">
+                                    <li><a href="contact.html" title="" itemprop="url">Contact Style 1</a></li>
+                                    <li><a href="contact2.html" title="" itemprop="url">Contact Style 2</a></li>
+                                    <li><a href="contact3.html" title="" itemprop="url">Contact Style 3</a></li>
+                                </ul>
+                            </li>-->
+                        </ul>
                     </div>
                 </nav>
             </div>
@@ -459,11 +414,12 @@
                             alt="logo.png" itemprop="image"></a></div>
                 <span class="rspn-mnu-btn"><i class="fa fa-align-center"></i></span>
             </div>
-            <div class="rsnp-mnu">
-                <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
+            <div>
+                <a class="srch-btn" href="#" title="" itemprop="url" ><i class="flaticon-magnifier" style="text-align: left;"></i></a>
                 <ul>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">About Us</a>
-                        <ul class="children mirror">
+                    <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">About Us</a>
+                        
+                        <ul class="children">
                             <li><a href="" title="" itemprop="url">History</a></li>
                             <li><a href="" title="" itemprop="url">Vision & Mission</a></li>
                             <li><a href="" title="" itemprop="url">Corporate Policy</a></li>
@@ -479,101 +435,51 @@
                             <li><a href="index13.html" title="" itemprop="url">Homepage 13</a></li> -->
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Service</a>
-                        <div class="mga-mnu center">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-lg-6">
-                                    <div class="mga-lnks">
-                                        <a href="" title="" itemprop="url">Water</a>
-                                        <a href="" title="" itemprop="url">Power</a>
-                                        <a href="" title="" itemprop="url">Utico Trading</a>
-                                    </div>
-                                </div>
-                               <div class="col-md-6 col-sm-6 col-lg-6">
-                                    <div class="mga-lnks">
-                                        <a href="" title="" itemprop="url">EPC</a>
-                                        <a href="" title="" itemprop="url">Engineering Services</a>
-                                        <a href="" title="" itemprop="url">Solar Free</a>
-                                    </div>
-                                </div>
-                              <!--  <div class="col-md-3 col-sm-6 col-lg-3">
-                                    <div class="mga-lnks">
-                                        <a href="blog7.html" title="" itemprop="url">Blog Style 7</a>
-                                        <a href="blog-left-sidebar.html" title="" itemprop="url">Blog Left Sidebar</a>
-                                        <a href="blog-right-sidebar.html" title="" itemprop="url">Blog Right Sidebar</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-lg-3">
-                                    <div class="mga-lnks">
-                                        <a href="blog-detail.html" title="" itemprop="url">Blog Detail</a>
-                                        <a href="blog-detail-left-sidebar.html" title="" itemprop="url">Blog Detail Left Sidebar</a>
-                                        <a href="blog-detail-right-sidebar.html" title="" itemprop="url">Blog Detail Right Sidebar</a>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Projects</a>
-                        <div class="mga-mnu center">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 col-lg-6">
-                                    <div class="mga-lnks">
-                                        <a href="" title="" itemprop="url">Achievements</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-lg-6">
-                                    <div class="mga-lnks">
-                                        <a href="" title="" itemprop="url">Project Portfolio</a>
-                                    </div>
-                                </div>
-                                <!--<div class="col-md-3 col-sm-6 col-lg-3">
-                                    <div class="mga-lnks">
-                                        <a href="portfolio13.html" title="" itemprop="url">Portfolio Style 13</a>
-                                        <a href="portfolio14.html" title="" itemprop="url">Portfolio Style 14</a>
-                                        <a href="portfolio15.html" title="" itemprop="url">Portfolio Style 15</a>
-                                        <a href="portfolio-detail.html" title="" itemprop="url">Portfolio Detail Style 1</a>
-                                        <a href="portfolio-detail2.html" title="" itemprop="url">Portfolio Detail Style 2</a>
-                                        <a href="portfolio-detail3.html" title="" itemprop="url">Portfolio Detail Style 3</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-lg-3">
-                                    <div class="mga-lnks">
-                                        <a href="portfolio-detail4.html" title="" itemprop="url">Portfolio Detail Style 4</a>
-                                        <a href="portfolio-detail5.html" title="" itemprop="url">Portfolio Detail Style 5</a>
-                                        <a href="portfolio-detail6.html" title="" itemprop="url">Portfolio Detail Style 6</a>
-                                        <a href="portfolio-detail7.html" title="" itemprop="url">Portfolio Detail Style 7</a>
-                                        <a href="portfolio-detail8.html" title="" itemprop="url">Portfolio Detail Style 8</a>
-                                    </div>
-                                </div>
-                            </div>-->
-                        </div> 
-                    </li>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Partners</a>
+                    <li class="menu-item-has-children"style="font-weight: bold;"><a href="#" title="" itemprop="url">Service</a>
                         <ul class="children">
-                           <li><a href="" title="" itemprop="url">Valued Partners</a></li>
-                           <li><a href="" title="" itemprop="url">Clients</a></li>
-                           <li><a href="" title="" itemprop="url">Consultants</a></li>
-                           <li><a href="" title="" itemprop="url">Uticonsults</a></li>
-                       </ul> 
-                   </li>
-                   <!--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">About</a>
+                            <li><a href="" title="" itemprop="url">Water</a></li>
+                            <li><a href="" title="" itemprop="url">Power</a></li>
+                            <li><a href="" title="" itemprop="url">Utico Trading</a></li>
+                            <li><a href="" title="" itemprop="url">EPC</a></li>
+                            <li><a href="" title="" itemprop="url">Engineering Services</a></li>
+                            <li><a href="" title="" itemprop="url">Solar Free</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">Projects</a>
+                        
+                        <ul class="children">
+                            <li><a href="" title="" itemprop="url">Achievements</a></li>
+                            <li><a href="" title="" itemprop="url">Project Portfolio</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li class="menu-item-has-children" style="font-weight: bold;"><a href="#" title="" itemprop="url">Partners</a>
                          <ul class="children">
-                           <li><a href="about-me.html" title="" itemprop="url">About Me Style 1</a></li>
-                           <li><a href="about-me2.html" title="" itemprop="url">About Me Style 2</a></li>
-                           <li><a href="about.html" title="" itemprop="url">About Style 1</a></li>
-                           <li><a href="about2.html" title="" itemprop="url">About Style 2</a></li>
-                           <li><a href="about3.html" title="" itemprop="url">About Style 3</a></li>
-                           <li><a href="about4.html" title="" itemprop="url">About Style 4</a></li>
-                       </ul> 
-                   </li>-->
-                   <!--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">Contact</a>
-                         <ul class="children">
-                           <li><a href="contact.html" title="" itemprop="url">Contact Style 1</a></li>
-                           <li><a href="contact2.html" title="" itemprop="url">Contact Style 2</a></li>
-                           <li><a href="contact3.html" title="" itemprop="url">Contact Style 3</a></li>
-                       </ul>
-                   </li>-->
-               </ul>
+                            <li><a href="" title="" itemprop="url">Valued Partners</a></li>
+                            <li><a href="" title="" itemprop="url">Clients</a></li>
+                            <li><a href="" title="" itemprop="url">Consultants</a></li>
+                            <li><a href="" title="" itemprop="url">Uticonsults</a></li>
+                        </ul> 
+                    </li>
+                    <!--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">About</a>
+                          <ul class="children">
+                            <li><a href="about-me.html" title="" itemprop="url">About Me Style 1</a></li>
+                            <li><a href="about-me2.html" title="" itemprop="url">About Me Style 2</a></li>
+                            <li><a href="about.html" title="" itemprop="url">About Style 1</a></li>
+                            <li><a href="about2.html" title="" itemprop="url">About Style 2</a></li>
+                            <li><a href="about3.html" title="" itemprop="url">About Style 3</a></li>
+                            <li><a href="about4.html" title="" itemprop="url">About Style 4</a></li>
+                        </ul> 
+                    </li>-->
+                    <!--<li class="menu-item-has-children"><a href="#" title="" itemprop="url">Contact</a>
+                          <ul class="children">
+                            <li><a href="contact.html" title="" itemprop="url">Contact Style 1</a></li>
+                            <li><a href="contact2.html" title="" itemprop="url">Contact Style 2</a></li>
+                            <li><a href="contact3.html" title="" itemprop="url">Contact Style 3</a></li>
+                        </ul>
+                    </li>-->
+                </ul>
             </div><!-- Responsive Menu -->
         </div><!-- Responsive Header -->
         <section>
@@ -583,12 +489,12 @@
                     <ul>
                         <li data-index="rs-1" data-transition="none" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off" data-title="Slide Title" data-easein="" data-easeout=""
-                            data-masterspeed="2000" data-rotate="0" data-fstransition="random" data-fsmasterspeed="1500"
+                            data-masterspeed="2000" data-rotate="0" data-fstransition="none" data-fsmasterspeed="1500"
                             data-fsslotamount="7" data-saveperformance="off" data-param1="" data-param2=""
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                             data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="assets/demo/img1.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            <img src="assets/demo/img1.jpg" alt=""href="#" data-bgposition="center center" data-bgfit="cover"
                                 data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                             <!-- LAYER NR. 1 -->
@@ -636,33 +542,21 @@
                             </div>
 
                             <!-- LAYER NR. 4 -->
-                            <div class="tp-caption rev-btn thm-btn" id="slide-layer7-4"
-                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                data-y="['middle','middle','middle','middle']" data-voffset="['215','130','130','100']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                                data-actions='[{"event":"click","action":"simplelink","slide":"next","delay":"","target": "_self", "url": ""}]'
-                                data-responsive_offset="on" data-responsive="on"
-                                data-frames='[{"from":"x:-[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['center','center','center','center']" data-paddingtop="[15,15,12,12]"
-                                data-paddingright="[50,50,35,35]" data-paddingbottom="[15,15,12,12]"
-                                data-paddingleft="[50,50,35,35]"
-                                style="cursor:pointer;line-height: 25px;display: inline-block;font-size: 12px;letter-spacing: 0;font-weight: 600;font-family:open sans;">
-                                All Projects
-                            </div>
+                            
                         </li>
                         <li data-index="rs-2" data-transition="none" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off" data-title="Slide Title" data-easein="Power4.easeInOut"
                             data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0"
-                            data-fstransition="random" data-fsmasterspeed="1500" data-fsslotamount="7"
+                            data-fstransition="none" data-fsmasterspeed="1500" data-fsslotamount="7"
                             data-saveperformance="off" data-param1="" data-param2="" data-param3="" data-param4=""
                             data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                             data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="assets/demo/img2.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            <img src="assets/demo/img2.jpg" alt=""href="#"  data-bgposition="center center" data-bgfit="cover"
                                 data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                             <!-- LAYER NR. 1 -->
-                            <div class="tp-caption tp-resizeme" id="slide-layer7-1"
+                            <div height=50px; width=50px; class="tp-caption tp-resizeme" id="slide-layer7-1"
                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                 data-y="['middle','middle','middle','middle']"
                                 data-voffset="['-80','-140','-140','-80']" data-fontsize="['24','20','17','15']"
@@ -676,7 +570,7 @@
                             </div>
 
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption tp-resizeme" id="slide-layer7-2"
+                            <div height=50px; width=50px; class="tp-caption tp-resizeme" id="slide-layer7-2"
                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                 data-y="['middle','middle','middle','middle']" data-voffset="['20','-60','-60','-30']"
                                 data-fontsize="['76','65','50','30']" data-lineheight="['80','70','55','35']"
@@ -691,7 +585,7 @@
                             </div>
 
                             <!-- LAYER NR. 3 -->
-                            <div class="tp-caption tp-resizeme" id="slide-layer7-3"
+                            <div height=50px; width=50px; class="tp-caption tp-resizeme" id="slide-layer7-3"
                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                 data-y="['middle','middle','middle','middle']" data-voffset="['130','40','40','20']"
                                 data-fontsize="['24','20','17','15']" data-lineheight="['31','30','28','26']"
@@ -706,29 +600,17 @@
                             </div>
 
                             <!-- LAYER NR. 4 -->
-                            <div class="tp-caption rev-btn thm-btn" id="slide-layer7-4"
-                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                data-y="['middle','middle','middle','middle']" data-voffset="['215','130','130','100']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                                data-actions='[{"event":"click","action":"simplelink","slide":"next","delay":"","target": "_self", "url": ""}]'
-                                data-responsive_offset="on" data-responsive="on"
-                                data-frames='[{"from":"x:-[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['center','center','center','center']" data-paddingtop="[15,15,12,12]"
-                                data-paddingright="[50,50,35,35]" data-paddingbottom="[15,15,12,12]"
-                                data-paddingleft="[50,50,35,35]"
-                                style="cursor:pointer;line-height: 25px;display: inline-block;font-size: 12px;letter-spacing: 0;font-weight: 600;font-family:open sans;">
-                                All Projects
-                            </div>
+                            
                         </li>
                         <li data-index="rs-3" data-transition="none" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off" data-title="Slide Title" data-easein="Power4.easeInOut"
                             data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0"
-                            data-fstransition="random" data-fsmasterspeed="1500" data-fsslotamount="7"
+                            data-fstransition="none" data-fsmasterspeed="1500" data-fsslotamount="7"
                             data-saveperformance="off" data-param1="" data-param2="" data-param3="" data-param4=""
                             data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                             data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="assets/demo/img3.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            <img src="assets/demo/img3.jpg" alt=""href="#"  data-bgposition="center center" data-bgfit="cover"
                                 data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                             <!-- LAYER NR. 1 -->
@@ -776,30 +658,18 @@
                             </div>
 
                             <!-- LAYER NR. 4 -->
-                            <div class="tp-caption rev-btn thm-btn" id="slide-layer7-4"
-                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                data-y="['middle','middle','middle','middle']" data-voffset="['215','130','130','100']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                                data-actions='[{"event":"click","action":"simplelink","slide":"next","delay":"","target": "_self", "url": ""}]'
-                                data-responsive_offset="on" data-responsive="on"
-                                data-frames='[{"from":"x:-[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['center','center','center','center']" data-paddingtop="[15,15,12,12]"
-                                data-paddingright="[50,50,35,35]" data-paddingbottom="[15,15,12,12]"
-                                data-paddingleft="[50,50,35,35]"
-                                style="cursor:pointer;line-height: 25px;display: inline-block;font-size: 12px;letter-spacing: 0;font-weight: 600;font-family:open sans;">
-                                All Projects
-                            </div>
+                           
                         </li>
                         <li data-index="rs-4" data-transition="none" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off" data-title="Slide Title" data-easein="Power4.easeInOut"
                             data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0"
-                            data-fstransition="random" data-fsmasterspeed="1500" data-fsslotamount="7"
+                            data-fstransition="none" data-fsmasterspeed="1500" data-fsslotamount="7"
                             data-saveperformance="off" data-param1="" data-param2="" data-param3="" data-param4=""
                             data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                             data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="assets/demo/img4.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-                                data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="assets/demo/img4.jpg" alt="" href="#" data-bgposition="center center" data-bgfit="cover"
+                                data-bgrepeat="no-repeat" data-bgparallax="2" class="rev-slidebg" data-no-retina>
 
                             <!-- LAYER NR. 1 -->
                             <div class="tp-caption tp-resizeme" id="slide-layer7-1"
@@ -846,19 +716,7 @@
                             </div>
 
                             <!-- LAYER NR. 4 -->
-                            <div class="tp-caption rev-btn thm-btn" id="slide-layer7-4"
-                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                data-y="['middle','middle','middle','middle']" data-voffset="['215','130','130','100']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                                data-actions='[{"event":"click","action":"simplelink","slide":"next","delay":"","target": "_self", "url": ""}]'
-                                data-responsive_offset="on" data-responsive="on"
-                                data-frames='[{"from":"x:-[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['center','center','center','center']" data-paddingtop="[15,15,12,12]"
-                                data-paddingright="[50,50,35,35]" data-paddingbottom="[15,15,12,12]"
-                                data-paddingleft="[50,50,35,35]"
-                                style="cursor:pointer;line-height: 25px;display: inline-block;font-size: 12px;letter-spacing: 0;font-weight: 600;font-family:open sans;">
-                                All Projects
-                            </div>
+                            
                         </li>
                     </ul>
 
@@ -868,12 +726,14 @@
         <section style="margin-top:-150px;position: relative;z-index: 1000;">
             <div class="gap bottom-spac200">
                 <div id="frame" style="
-                padding: 2% 5% 42% 5%;
+                padding: 2% 5% 3% 5%;
                 margin-top: 5%;
                 margin-left: 2%;
                 margin-right: 2%;
-                background-color:rgb(255,255,255,0.5);
+                background-color:rgb(255,255,255);
                 ">
+                <div style="color: black; font-size: 30px; font-weight: bold;" >NEWS</div>
+                <br>
                     <div class="container">
                         <div class="remove-ext3">
                             <div class="row">
@@ -931,18 +791,15 @@
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <a class="thm-btn" style=" margin-top: 5%;"href="" title="" itemprop="url">Real All News</a>
                 </div>
+                
             </div>
         </section>
         <section>
-            <div id="frame2" style="
-                padding: 1% 5% 2% 1%;
-                margin-top: -15%;
-                margin-left: 2%;
-                margin-right: 2%;
-                width: 100%;
-                ">
-                <img src="assets/images/bgg.jpg" alt="aply-mckp.png" itemprop="image" >
+            
+                <img src="assets/images/bgg.jpg" style="width: 100%;" alt="aply-mckp.png" itemprop="image" >
                 <div style="
                     position: absolute;
                     top: 20%;
@@ -952,35 +809,36 @@
                     font-size: 30px;
                     font-weight: bold;
                   ">UTICO develop and invest in utility, power and water infrastructure. Making it the largest private utility company in UAE.</div>
-                </div>
+                
         </section>
       <section  style="margin-top: 4%;">
             <div class="gap">
-                <div class="container">
-                    <div class="busns-slut-wrp">
+                <div style="color: black; font-size: 30px; font-weight: bold;" >Solutions</div>
+                <div class="container" >
+                    <div class="busns-slut-wrp" style="background-image: url('assets/images/bc.png')">
                         <div class="row">
                             <div class="col-md-6 col-sm-12 col-lg-6 slideInLeft wow" data-wow-duration="1s" data-wow-delay=".2s">
-                                <div class="hir-box text-center">
-                                    <img src="assets/images/g1.jpg" id="Water" height="609" width="473" alt="aply-mckp.png" itemprop="image">
-                                    <img src="assets/images/g2.jpg" id="Power" height="609" width="473" alt="aply-mckp.png" itemprop="image">
-                                    <img src="assets/images/g3.jpg" id="Waterw" height="609" width="473" alt="aply-mckp.png" itemprop="image">
-                                    <img src="assets/images/g4.jpg" id="EPC" height="609" width="473" alt="aply-mckp.png" itemprop="image">
-                                    <img src="assets/images/g5.jpg" id="Solar" height="609" width="473" alt="aply-mckp.png" itemprop="image">
+                                <div >
+                                    <img src="assets/images/g1.jpg" id="Water" height="500" width="460" alt="aply-mckp.png" itemprop="image">
+                                    <img src="assets/images/g2.jpg" id="Power" height="500" width="460" alt="aply-mckp.png" itemprop="image">
+                                    <img src="assets/images/g3.jpg" id="Waterw" height="500" width="460" alt="aply-mckp.png" itemprop="image">
+                                    <img src="assets/images/g4.jpg" id="EPC" height="500" width="460" alt="aply-mckp.png" itemprop="image">
+                                    <img src="assets/images/g5.jpg" id="Solar" height="500" width="460" alt="aply-mckp.png" itemprop="image">
                                     
-                                    <a class="thm-btn" href="" title="" itemprop="url">Hire Us</a>
+                                    
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-12 col-lg-6">
                                 <div class="busns-slut-tbs">
-                                    <ul class="nav nav-tabs">
-                                        <li class="nav-item"><a id="w1" class="nav-link active" data-toggle="tab" href="#busns-slut-tb1">Water</a></li>
-                                        <li class="nav-item"><a  id="w2" class="nav-link" data-toggle="tab" href="#busns-slut-tb2">Power</a></li>
-                                        <li class="nav-item"><a  id="w3" class="nav-link" data-toggle="tab" href="#busns-slut-tb3">Waste Water Treatment</a></li>
-                                        <li class="nav-item"><a  id="w4" class="nav-link" data-toggle="tab" href="#busns-slut-tb4">EPC</a></li>
-                                        <li class="nav-item"><a   id="w5" class="nav-link" data-toggle="tab" href="#busns-slut-tb5">Solar</a></li>
+                                    <ul class="nav nav-tabs" >
+                                        <li class="nav-item" style="font-weight: bold;"><a id="w1" class="nav-link active" data-toggle="tab" href="#busns-slut-tb1">Water</a></li>
+                                        <li class="nav-item" style="font-weight: bold;"><a  id="w2" class="nav-link" data-toggle="tab" href="#busns-slut-tb2">Power</a></li>
+                                        <li class="nav-item" style="font-weight: bold;"><a  id="w3" class="nav-link" data-toggle="tab" href="#busns-slut-tb3">Waste Water Treatment</a></li>
+                                        <li class="nav-item" style="font-weight: bold;"><a  id="w4" class="nav-link" data-toggle="tab" href="#busns-slut-tb4">EPC</a></li>
+                                        <li class="nav-item" style="font-weight: bold;"><a   id="w5" class="nav-link" data-toggle="tab" href="#busns-slut-tb5">Solar</a></li>
                                     </ul>
                                     <div class="tab-content">
-                                        <div class="tab-pane fade show active text-center" id="busns-slut-tb1">
+                                        <div class="tab-pane fade show active text-left" id="busns-slut-tb1">
                                             <h2 itemprop="headline">Total Water Solution</h2>
                                             <p itemprop="description"> Utico's Water & Waste Solutions business offers a range of solutions for various applications in industrial sector, municipal corporations, commercial and defence establishments, and the hospitality industry.<br>
 
@@ -999,9 +857,11 @@
                                                 Sewage treatment
                                                 Waste water recycling
                                                 Hazardous waste incineration</p>
+                                                <a href="" title="" itemprop="url"><i
+                                                    class="thm-btn fa fa-arrow-right">Read More</i></a>
                                             
                                         </div>
-                                        <div class="tab-pane fade text-center" id="busns-slut-tb2">
+                                        <div class="tab-pane fade text-left" id="busns-slut-tb2">
                                             <h2 itemprop="headline">UTICO POWER</h2>
                                             <p itemprop="description">Utico owns approximately 33KV power transmission line and over 250 Km of 11KV power network with substations and a battery of RMUs to support the distribution.<br>
 
@@ -1009,9 +869,10 @@
                                                 
                                                 
                                                 44MW Natural Gas Fired Independent Power Plant at Khor Khuwair, Ras Al Khaimah, UAE</p>
-                                            
+                                                <a href="" title="" itemprop="url"><i
+                                                    class="thm-btn fa fa-arrow-right">Read More</i></a>
                                         </div>
-                                        <div class="tab-pane fade text-center" id="busns-slut-tb3">
+                                        <div class="tab-pane fade text-left" id="busns-slut-tb3">
                                             <h2 itemprop="headline">INDUSTRIAL WATER TREATMENT</h2>
                                             <p itemprop="description">Water treatment is used to optimize most water-based industrial processes, such as: heating, cooling, processing, cleaning, and rinsing, so that operating costs and risks are reduced. Effluent water from one process might be perfectly suitable for reuse in another process somewhere else. With the proper treatment, a significant proportion of industrial on-site wastewater might be reusable.<br>
 
@@ -1020,9 +881,10 @@
                                                 
                                                 
                                                 We audit wastewater treatment operations for conformance to industry standards, evaluate the margin of safety with respect to the wastewater discharge permit limits for specific contaminants such as phosphate, total suspended solids, pH, and color, and prescribed corrective actions.</p>
-                                            
+                                                <a href="" title="" itemprop="url"><i
+                                                    class=" thm-btn fa fa-arrow-right">Read More</i></a>
                                         </div>
-                                        <div class="tab-pane fade text-center" id="busns-slut-tb4">
+                                        <div class="tab-pane fade text-left" id="busns-slut-tb4">
                                             <h2 itemprop="headline">EPC</h2>
                                             <p itemprop="description">Utico EPC provides high quality Engineering, Project Management, Operation and Maintenance Services for the production and distribution of electricity and desalinated water.<br>
 
@@ -1031,16 +893,18 @@
                                                 
                                                 
                                                 Utico is also an investor in the development and long term operation of large scale power and water projects. UTICO EPC have the experience, financial and human resources capable of delivering multiple projects globally at any time.</p>
-                                            
+                                                <a href="" title="" itemprop="url"><i
+                                                    class="thm-btn fa fa-arrow-right">Read More</i></a>
                                         </div>
-                                        <div class="tab-pane fade text-center" id="busns-slut-tb5">
+                                        <div class="tab-pane fade text-left" id="busns-slut-tb5">
                                             <h2 itemprop="headline">Solar Fo Free</h2>
                                             <p itemprop="description">
                                                 Utico, the Middle East's leading Full service private utility.<br>
                                                 
                                                 
                                                 Launches path breaking program for "Roof Top Solar System for Home Owners"</p>
-                                            
+                                                <a href="" title="" itemprop="url"><i
+                                                    class="thm-btn fa fa-arrow-right">Read More</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1054,7 +918,7 @@
             <div class="gap remove-gap">
                 <div class="sec-title text-center">
                     <!-- <span>Quickly unleash cross</span> -->
-                    <h3 itemprop="headline">Our Best Work</h3>
+                    <h3 itemprop="headline">Services</h3>
                 </div>
                 <div class="prtfl-fltrs-wrp text-center">
                     <div class="fltr-dta remove-ext5">
@@ -1067,7 +931,7 @@
                                             <a href="assets/images/water10.jpg" data-fancybox="gallery" title="" itemprop="url"><i class="fa fa-search"></i></a>
                                             <a href="" title="" itemprop="url"><i class="fa fa-link"></i></a>
                                         </div>
-                                        <h4 itemprop="headline"><a href="#" title="" itemprop="url">Your work here</a></h4>
+                                        <h4 itemprop="headline"><a href="#" title="" itemprop="url">EPC</a></h4>
                                         <a href="" title="" itemprop="url">View Project</a>
                                     </div>
                                 </div>
@@ -1080,7 +944,7 @@
                                             <a href="assets/images/water11.jpg" data-fancybox="gallery" title="" itemprop="url"><i class="fa fa-search"></i></a>
                                             <a href="" title="" itemprop="url"><i class="fa fa-link"></i></a>
                                         </div>
-                                        <h4 itemprop="headline"><a href="#" title="" itemprop="url">Your work here</a></h4>
+                                        <h4 itemprop="headline"><a href="#" title="" itemprop="url">Engineering</a></h4>
                                         <a href="" title="" itemprop="url">View Project</a>
                                     </div>
                                 </div>
@@ -1093,7 +957,7 @@
                                             <a href="assets/images/water12.jpg" data-fancybox="gallery" title="" itemprop="url"><i class="fa fa-search"></i></a>
                                             <a href="" title="" itemprop="url"><i class="fa fa-link"></i></a>
                                         </div>
-                                        <h4 itemprop="headline"><a href="#" title="" itemprop="url">Your work here</a></h4>
+                                        <h4 itemprop="headline"><a href="#" title="" itemprop="url">Waste Water Management</a></h4>
                                         <a href="" title="" itemprop="url">View Project</a>
                                     </div>
                                 </div>
@@ -1106,7 +970,7 @@
                                             <a href="assets/images/water13.jpg" data-fancybox="gallery" title="" itemprop="url"><i class="fa fa-search"></i></a>
                                             <a href="" title="" itemprop="url"><i class="fa fa-link"></i></a>
                                         </div>
-                                        <h4 itemprop="headline"><a href="#" title="" itemprop="url">Your work here</a></h4>
+                                        <h4 itemprop="headline"><a href="#" title="" itemprop="url">Operation & Maintenance</a></h4>
                                         <a href="" title="" itemprop="url">View Project</a>
                                     </div>
                                 </div>
@@ -1118,7 +982,7 @@
         </section> 
  
         <section>
-            <div class="gap remove-gap">
+            <div class="gap remove-gap"></div>
                 <div class="container">
                     <div class="remove-ext3">
                         <div class="row">
@@ -1170,31 +1034,31 @@
             <div class="gap remove-gap">
                 <div class="container">
                     <div class="spnsr-wrp spnsr-car text-center owl-carousel">
-                        <div class="spnsr-itm">
+                        <div >
                             <a href="#" title="" itemprop="url"><img src="assets/images/a1.png"
                                     alt="spnsr-img1-1.png" itemprop="image"></a>
                         </div>
-                        <div class="spnsr-itm">
+                        <div >
                             <a href="#" title="" itemprop="url"><img src="assets/images/a2.jpg"
                                     alt="spnsr-img1-2.png" itemprop="image"></a>
                         </div>
-                        <div class="spnsr-itm">
+                        <div >
                             <a href="#" title="" itemprop="url"><img src="assets/images/a3.jpg"
                                     alt="spnsr-img1-3.png" itemprop="image"></a>
                         </div>
-                        <div class="spnsr-itm">
+                        <div >
                             <a href="#" title="" itemprop="url"><img src="assets/images/a4.jpg"
                                     alt="spnsr-img1-4.png" itemprop="image"></a>
                         </div>
-                        <div class="spnsr-itm">
+                        <div >
                             <a href="#" title="" itemprop="url"><img src="assets/images/a5.jpg"
                                     alt="spnsr-img1-5.png" itemprop="image"></a>
                         </div>
-                        <div class="spnsr-itm">
+                        <div>
                             <a href="#" title="" itemprop="url"><img src="assets/images/a6.jpg"
                                     alt="spnsr-img1-5.png" itemprop="image"></a>
                         </div>
-                        <div class="spnsr-itm">
+                        <div >
                             <a href="#" title="" itemprop="url"><img src="assets/images/a7.jpg"
                                     alt="spnsr-img1-5.png" itemprop="image"></a>
                         </div>
@@ -1214,7 +1078,7 @@
                                         <div class="wdgt-pst">
                                             <!--<a href="blog-detail-right-sidebar.html" title="" itemprop="url"><img src="assets/images/resources/wdgt-pst-img2-1.jpg" alt="wdgt-pst-img1-1.jpg" itemprop="image"></a> -->
                                             <div class="wdgt-inf">
-                                                <h4 itemprop="headline"><a href="blog-detail-right-sidebar.html"
+                                                <h4 itemprop="headline"><a href=""
                                                         title="" itemprop="url">Local authorities </a></h4>
                                                 <!--<span><i class="fa fa-clock-o"></i>July 18, 2016</span>-->
                                             </div>
@@ -1222,7 +1086,7 @@
                                         <div class="wdgt-pst">
                                             <!--    <a href="blog-detail-right-sidebar.html" title="" itemprop="url"><img src="assets/images/resources/wdgt-pst-img2-2.jpg" alt="wdgt-pst-img1-2.jpg" itemprop="image"></a> -->
                                             <div class="wdgt-inf">
-                                                <h4 itemprop="headline"><a href="blog-detail-right-sidebar.html"
+                                                <h4 itemprop="headline"><a href=""
                                                         title="" itemprop="url">Economic Impact</a></h4>
                                                 <!--<span><i class="fa fa-clock-o"></i>August 20, 2018</span> -->
                                             </div>
@@ -1230,7 +1094,7 @@
                                         <div class="wdgt-pst">
                                             <!--<a href="blog-detail-right-sidebar.html" title="" itemprop="url"><img src="assets/images/resources/wdgt-pst-img2-3.jpg" alt="wdgt-pst-img1-3.jpg" itemprop="image"></a>-->
                                             <div class="wdgt-inf">
-                                                <h4 itemprop="headline"><a href="blog-detail-right-sidebar.html"
+                                                <h4 itemprop="headline"><a href=""
                                                         title="" itemprop="url">Careers</a></h4>
                                                 <!-- <span><i class="fa fa-clock-o"></i>April 25, 2017</span>-->
                                             </div>
@@ -1276,7 +1140,7 @@
                                         <div class="wdgt-pst">
                                             <!--<a href="blog-detail-right-sidebar.html" title="" itemprop="url"><img src="assets/images/resources/wdgt-pst-img2-1.jpg" alt="wdgt-pst-img1-1.jpg" itemprop="image"></a> -->
                                             <div class="wdgt-inf">
-                                                <h4 itemprop="headline"><a href="blog-detail-right-sidebar.html"
+                                                <h4 itemprop="headline"><a href=""
                                                         title="" itemprop="url">CSR </a></h4>
                                                 <!--<span><i class="fa fa-clock-o"></i>July 18, 2016</span>-->
                                             </div>
@@ -1284,7 +1148,7 @@
                                         <div class="wdgt-pst">
                                             <!--    <a href="blog-detail-right-sidebar.html" title="" itemprop="url"><img src="assets/images/resources/wdgt-pst-img2-2.jpg" alt="wdgt-pst-img1-2.jpg" itemprop="image"></a> -->
                                             <div class="wdgt-inf">
-                                                <h4 itemprop="headline"><a href="blog-detail-right-sidebar.html"
+                                                <h4 itemprop="headline"><a href=""
                                                         title="" itemprop="url">USI (Utico Solidarity Initiative)</a>
                                                 </h4>
                                                 <!--<span><i class="fa fa-clock-o"></i>August 20, 2018</span> -->
@@ -1293,7 +1157,7 @@
                                         <div class="wdgt-pst">
                                             <!--<a href="blog-detail-right-sidebar.html" title="" itemprop="url"><img src="assets/images/resources/wdgt-pst-img2-3.jpg" alt="wdgt-pst-img1-3.jpg" itemprop="image"></a>-->
                                             <div class="wdgt-inf">
-                                                <h4 itemprop="headline"><a href="blog-detail-right-sidebar.html"
+                                                <h4 itemprop="headline"><a href=""
                                                         title="" itemprop="url">Core Values</a></h4>
                                                 <!-- <span><i class="fa fa-clock-o"></i>April 25, 2017</span>-->
                                             </div>
@@ -1303,20 +1167,21 @@
                             </div>
                             <div class="col-md-3 col-sm-6 col-lg-3">
                                 <div class="wdgt">
+                                    
+                                    <h4 itemprop="headline">We are Everywhere</h4>
                                     <div class="wdgt-pst">
                                         <!--<a href="blog-detail-right-sidebar.html" title="" itemprop="url"><img src="assets/images/resources/wdgt-pst-img2-3.jpg" alt="wdgt-pst-img1-3.jpg" itemprop="image"></a>-->
                                         <div class="wdgt-inf">
-                                            <h4 itemprop="headline"><a href="blog-detail-right-sidebar.html" title=""
+                                            <h4 itemprop="headline"><a href="" title=""
                                                     itemprop="url">Location</a></h4>
                                             <!-- <span><i class="fa fa-clock-o"></i>April 25, 2017</span>-->
                                         </div>
                                     </div>
-                                    <h4 itemprop="headline">We are Everywhere</h4>
                                     <div class="wdgt-gal-car owl-carousel">
                                         <div class="wdgt-gal-itm">
                                             <div class="row mrg">
                                                 <div class="col-md-12 col-sm-12 col-lg-12"><img
-                                                        src="assets/demo/world_map.png" alt="wdgt-gal-img1-1.jpg"
+                                                        src="assets/demo/world_map.png" alt="wdgt-gal-img1-1.jpg" style="filter: invert(65%) sepia(3%) saturate(3118%) hue-rotate(59deg) brightness(65%) contrast(74%);"
                                                         itemprop="image"></div>
                                                 
                                             </div>
@@ -1329,10 +1194,11 @@
                     </div><!-- Footer Wrap -->
                 </div>
             </div>
+            <a id="button1"></a>
         </footer><!-- Footer -->
         <div class="btm-br text-center">
             <div class="container">
-                <p itemprop="description">Handcrafted by <a href="https://themeforest.net/" title="Themeforest"
+                <p itemprop="description">Handcrafted by <a href="" title="Themeforest"
                         itemprop="url" target="_blank">Codersdek</a></p>
             </div>
         </div><!-- Bottom Bar -->
@@ -1364,6 +1230,22 @@
 
     <script>
         $(document).ready(function(){
+            var btn = $('#button1');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 1000) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
             $("Water").show();
             $("#Power").hide();
         $("#Waterw").hide();
@@ -1405,8 +1287,7 @@
         $("#EPC").hide();
         $("#Solar").show();
       });
-        
-    });
+      });
     </script>
 </body>
 

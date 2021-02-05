@@ -231,9 +231,9 @@ section {
 .bottom-spac70,
 .gap.bottom-spac70 {padding-bottom: 70px;}
 .top-spac80,
-.gap.top-spac80 {padding-top: 80px;}
+.gap.top-spac80 {padding-top: 21px;}
 .bottom-spac80,
-.gap.bottom-spac80 {padding-bottom: 80px;}
+.gap.bottom-spac80 {padding-bottom: 21px;}
 .top-spac90,
 .gap.top-spac90 {padding-top: 90px;}
 .bottom-spac90,
@@ -283,7 +283,7 @@ section {
 .wht-bg {background-color: #fff;}
 .gray-bg {background-color: #f5f5f5;}
 .gray-bg2 {background-color: #f5f9fa;}
-.drk-bg {background-color: #191919;}
+.drk-bg {background-color: #0084b4;}
 .drk-bg2 {background-color: #2b2d2e;}
 .drk-bg3 {background-color: #141414;}
 .drk-bg4 {background-color: #1e1e1e;}
@@ -1044,7 +1044,7 @@ header.style2 .menu-wrp2{
   width: 150px;
   text-align: initial;
 }
-.menu-wrp2 .logo > a {padding: 31px 0;}
+.menu-wrp2 .logo > a {padding: 19px 0;}
 .menu-wrp2 nav {
   float: left;
   width: 100%;
@@ -3208,7 +3208,7 @@ footer {
   margin-bottom: 30px;
   font-size: 18px;
 }
-.drk-bg .wdgt > h4 {color: #adadad;}
+.drk-bg .wdgt > h4 {color: #000000;}
 .wdgt-pst-wrp {
   float: left;
   width: 100%;
@@ -3284,13 +3284,13 @@ footer {
 .btm-br {
   float: left;
   width: 100%;
-  background-color: #101010;
+  background-color: #0084b4;
   padding: 19px 0;
 }
 .btm-br p {
   margin: 0;
   font-size: 13px;
-  color: #929292;
+  color: #212529;
   font-family: poppins;
   font-weight: 500;
 }
