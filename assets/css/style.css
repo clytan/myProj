@@ -1044,7 +1044,7 @@ header.style2 .menu-wrp2{
   width: 150px;
   text-align: initial;
 }
-.menu-wrp2 .logo > a {padding: 19px 0;}
+.menu-wrp2 .logo > a {padding: 0px 0;}
 .menu-wrp2 nav {
   float: left;
   width: 100%;
@@ -1890,7 +1890,7 @@ body.sticky-active .sticky-header {
 }
 .menu-wrp3.sticky-header nav > div > ul > li {line-height: 75px;}
 .menu-wrp3.sticky-header .logo {
-  padding: 20px 0px;
+  padding: 3px 0;
   margin-bottom: -6px;
 }
 .menu-wrp3.sticky-header nav > div > ul {margin-bottom: -6px;}
