@@ -805,7 +805,7 @@ nav > div ul ul {
   -ms-box-shadow: 0 3px 2px rgba(0,0,0,.2);
   -o-box-shadow: 0 3px 2px rgba(0,0,0,.2);
   box-shadow: 0 3px 2px rgba(0,0,0,.2);
-  top: 100%;
+  top: 80%;
   min-width: 275px;
   left: 0;
   padding: 4px 0;
@@ -1006,7 +1006,7 @@ nav > div ul li {
   float: left;
   width: 100%;
   color: #6f6f6f;
-  font-size: 14px;
+  font-size: 16px;
   font-family: poppins;
   position: relative;
   font-weight: 400;
@@ -1164,7 +1164,7 @@ header.style3 {top: -40px;}
   position: absolute;
   top: 50%;
   width: 1px;
-  height: 15px;
+  /* height: 15px; */
   margin-top: -7.5px;
   background-color: #aeaeae;
   right: 0;
