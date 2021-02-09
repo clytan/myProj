@@ -283,7 +283,7 @@ section {
 .wht-bg {background-color: #fff;}
 .gray-bg {background-color: #f5f5f5;}
 .gray-bg2 {background-color: #f5f9fa;}
-.drk-bg {background-color: #0084b4;}
+.drk-bg {background-color: #00C1DE;}
 .drk-bg2 {background-color: #2b2d2e;}
 .drk-bg3 {background-color: #141414;}
 .drk-bg4 {background-color: #1e1e1e;}
@@ -808,7 +808,7 @@ nav > div ul ul {
   top: 100%;
   min-width: 275px;
   left: 0;
-  padding: 25px 0;
+  padding: 4px 0;
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(.7);
@@ -840,7 +840,7 @@ nav > div ul ul li a {
   display: block;
   float: left;
   width: 100%;
-  padding: 7px 30px;
+  padding: 0px 30px;
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 nav > div ul ul li:hover > a, 
@@ -1091,7 +1091,7 @@ header.style3 {top: -40px;}
   width: 100%;
   line-height: 0;
   padding: 0 50px 0 30px;
-  background-color:#22be32;
+  background-color:#3DAE2B;
  
 }
 .tp-lst {
@@ -1191,7 +1191,6 @@ header.style3 {top: -40px;}
   padding-left: 35px;
 }
 .menu-wrp3 nav > div > ul > li + li:before {
-  content: "-";
   color: #777;
   position: absolute;
   left: 0;
@@ -1534,7 +1533,6 @@ header.style7 .tp-lst > li {color: #fff;}
 header.style7 .scl-btns2 > a {color: #fff;}
 header.style7 .hdr-srch + .scl-btns2::before,
 .topbar3 > a.gt-qt + .scl-btns2::before {
-  background-color: #fff;
   right: 1px;
 }
 .topbar3 > a.gt-qt {
@@ -1773,7 +1771,7 @@ header.style10 .menu-wrp2 nav > div > .hdr-scl + ul:before {
   content: "";
   position: absolute;
   left: 0;
-  height: 30px;
+  /* height: 30px; */
   top: 10px;
   background-color: rgba(255,255,255,.4);
   width: 1px;
@@ -1789,10 +1787,6 @@ header.style11 nav > div > a,
 header.style11 .menu-wrp3,
 .menu-wrp3.sticky-header {
   background-color: #f5f5f5;
-  -webkit-box-shadow: 0 5px 0 rgba(0,0,0,.4);
-  -ms-box-shadow: 0 5px 0 rgba(0,0,0,.4);
-  -o-box-shadow: 0 5px 0 rgba(0,0,0,.4);
-  box-shadow: 0 5px 0 rgba(0,0,0,.4);
 }
 header.style11 nav > div > a + ul {
   margin-right: 40px;
@@ -3284,7 +3278,7 @@ footer {
 .btm-br {
   float: left;
   width: 100%;
-  background-color: #0084b4;
+  background-color: #00C1DE;
   padding: 19px 0;
 }
 .btm-br p {
@@ -4769,7 +4763,7 @@ footer {
 .pst-inf-styl3 > a {
   line-height: 37px;
   width: 37px;
-  background-color: #22be32;
+  background-color: #3DAE2B;
   display: inline-block;
   text-align: center;
   -webkit-border-radius: 50%;
