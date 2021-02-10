@@ -253,7 +253,7 @@ section {
 .top-spac200,
 .gap.top-spac200 {padding-top: 200px;}
 .bottom-spac200,
-.gap.bottom-spac200 {padding-bottom: 200px;}
+.gap.bottom-spac200 {padding-bottom: 27px;}
 .top-spac220,
 .gap.top-spac220 {padding-top: 220px;}
 .bottom-spac220,
@@ -841,7 +841,6 @@ nav > div ul ul li a {
   float: left;
   width: 100%;
   padding: 0px 30px;
-  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 nav > div ul ul li:hover > a, 
 nav > div ul ul li a:focus {color: #fff;}
@@ -1032,7 +1031,7 @@ header.style2 {top: 30px;}
   -ms-box-shadow: 0 0 20px rgba(0,1,1,.1);
   -o-box-shadow: 0 0 20px rgba(0,1,1,.1);
   box-shadow: 0 0 20px rgba(0,1,1,.1);
-  padding: 0 50px 0 30px;
+  padding: 0 77px 0 30px;
 }
 header.style2 .menu-wrp2{
   background-image: url(../images/mnu2-img.png);
@@ -1090,7 +1089,7 @@ header.style3 {top: -40px;}
   float: left;
   width: 100%;
   line-height: 0;
-  padding: 0 50px 0 30px;
+  padding: 0 0px 0 30px;
   background-color:#3DAE2B;
  
 }
@@ -3278,7 +3277,7 @@ footer {
 .btm-br {
   float: left;
   width: 100%;
-  background-color: #3DAE2B;
+  background-color: #00C1DE;
   padding: 19px 0;
 }
 .btm-br p {
