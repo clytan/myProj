@@ -2329,7 +2329,7 @@ body.sticky-active .sticky-header {
   float: right;
   width: calc(100% + 30px);
   text-align: right;
-  margin-top: 90px;
+  margin-top: 0px;
 }
 .busns-slut-tbs > ul.nav-tabs {
   float: right;
