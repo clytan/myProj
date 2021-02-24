@@ -3444,11 +3444,12 @@ footer {
 .prtfl-inf2 > a:hover, 
 .prtfl-inf2 > a:focus {color: #000;}
 .prtfl-box2.style2:hover:before {
-  left: 20px;
+  /* left: 20px;
   right: 20px;
   top: 20px;
-  bottom: 20px;
+  bottom: 20px; */
   opacity: 1;
+  background-color: #00000095!important;
   -webkit-border-radius: inherit;
   border-radius: inherit;
 }

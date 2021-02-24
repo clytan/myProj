@@ -1027,10 +1027,10 @@ header.style2 {top: 30px;}
   /* border-radius: 5px; */
   position: relative;
   background-color: #fff;
-  -webkit-box-shadow: 0 0 20px rgba(0,1,1,.1);
-  -ms-box-shadow: 0 0 20px rgba(0,1,1,.1);
-  -o-box-shadow: 0 0 20px rgba(0,1,1,.1);
-  box-shadow: 0 0 20px rgba(0,1,1,.1);
+  -webkit-box-shadow: 0 0 0px rgba(0,1,1,.1);
+  -ms-box-shadow: 0 0 0px rgba(0,1,1,.1);
+  -o-box-shadow: 0 0 0px rgba(0,1,1,.1);
+  box-shadow: 0 0 0px rgba(0,1,1,.1);
   padding: 0 77px 0 30px;
 }
 header.style2 .menu-wrp2{
@@ -1089,7 +1089,7 @@ header.style3 {top: -40px;}
   float: left;
   width: 100%;
   line-height: 0;
-  padding: 17px 0px 17px 30px;
+  padding: 17px 0px 17px 96px;
   background-color:white;
  
 }
@@ -1120,7 +1120,7 @@ header.style3 {top: -40px;}
 }
 .hdr-srch > form input {
   float: left;
-  width: 150px;
+  width: 220px;
   background-color: transparent;
   font-weight: 600;
   font-size: 16px;
@@ -3454,11 +3454,12 @@ footer {
 .prtfl-inf2 > a:hover, 
 .prtfl-inf2 > a:focus {color: #000;}
 .prtfl-box2.style2:hover:before {
-  left: 20px;
+  /* left: 20px;
   right: 20px;
   top: 20px;
-  bottom: 20px;
+  bottom: 20px; */
   opacity: 1;
+  background-color: #00000095!important;
   -webkit-border-radius: inherit;
   border-radius: inherit;
 }
