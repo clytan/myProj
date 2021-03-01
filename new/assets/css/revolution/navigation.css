@@ -34,6 +34,7 @@ website:    http://www.themepunch.com
     position:relative;
 }
 .ares.tparrows.tp-leftarrow:before {
+  
   content: "\e81f";
 }
 .ares.tparrows.tp-rightarrow:before {
