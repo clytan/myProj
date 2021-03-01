@@ -1089,7 +1089,7 @@ header.style3 {top: -40px;}
   float: left;
   width: 100%;
   line-height: 0;
-  padding: 17px 0px 17px 96px;
+  padding: 0px 0px 0px 96px;
   background-color:white;
  
 }
@@ -1107,7 +1107,7 @@ header.style3 {top: -40px;}
   position: relative;
   font-size: 13px;
 }
-.tp-lst > li + li {margin-left: 50px;}
+.tp-lst > li + li {margin-left: 27px;}
 .tp-lst > li i {margin-right: 10px;}
 .hdr-srch,
 .topbar3 > a.gt-qt {
