@@ -5072,6 +5072,7 @@ tp-caption.Team-Thumb,
 }
 .rev_slider {
     overflow: hidden;
+    
 }
 .effect_layer {
     position: absolute;
@@ -5445,7 +5446,7 @@ tp-caption.Team-Thumb,
     }
     .rev_slider {
         overflow: hidden;
-        height: 620px!important;
+        height: 660px!important;
     }
     .effect_layer {
         position: absolute;
