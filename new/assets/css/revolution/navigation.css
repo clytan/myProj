@@ -508,6 +508,7 @@ website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 /* ARROWS */
 .erinyen.tparrows {
+  margin-top:5%;
   cursor:pointer;
   background:#000;
   background:rgba(0,0,0,0.5);

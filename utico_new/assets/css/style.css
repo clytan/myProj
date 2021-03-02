@@ -839,7 +839,6 @@ nav > div ul ul li a {
   float: left;
   width: 100%;
   padding: 0px 30px;
-  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 nav > div ul ul li:hover > a, 
 nav > div ul ul li a:focus {color: #fff;}
