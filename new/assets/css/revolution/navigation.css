@@ -34,6 +34,7 @@ website:    http://www.themepunch.com
     position:relative;
 }
 .ares.tparrows.tp-leftarrow:before {
+  
   content: "\e81f";
 }
 .ares.tparrows.tp-rightarrow:before {
@@ -507,6 +508,7 @@ website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 /* ARROWS */
 .erinyen.tparrows {
+  margin-top:5%;
   cursor:pointer;
   background:#000;
   background:rgba(0,0,0,0.5);
