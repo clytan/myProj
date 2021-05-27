@@ -1793,7 +1793,7 @@ header.style11 nav > div > a,
 }
 header.style11 .menu-wrp3,
 .menu-wrp3.sticky-header {
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 header.style11 nav > div > a + ul {
   margin-right: 40px;
@@ -2938,6 +2938,13 @@ body.sticky-active .sticky-header {
   background-color: #fff;
   box-shadow: 0 0 5px #bfbfbf;
 }
+.pst-box-styl100 {
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-top: 0px;
+  border-radius: 10px;
+  }
 .pst-thmb-styl1 {
   float: left;
   width: 100%;
