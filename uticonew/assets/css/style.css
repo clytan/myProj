@@ -1773,9 +1773,9 @@ Navbar Area CSS
 Main Banner Area CSS
 =================================================*/
 .main-banner {
-  height: 970px;
+  height: 770px;
   position: relative;
-  z-index: 2;
+  /* z-index: 2; */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1877,7 +1877,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content h1 {
-  color: #ffffff;
+  color: #002e5b;
   text-transform: uppercase;
   font-size: 55px;
   font-weight: 900;
@@ -1889,8 +1889,8 @@ Main Banner Area CSS
 
 .main-banner-content .btn-box .default-btn {
   margin-right: 10px;
-  background-color: #ffffff;
-  color: #002e5b;
+  background-color: #002e5b;
+  color: #ffffff;
 }
 
 .main-banner-content .btn-box .default-btn:hover, .main-banner-content .btn-box .default-btn:focus {
@@ -1898,6 +1898,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content .btn-box .optional-btn {
+  background-color: #002e5b;
   color: #ffffff;
 }
 
@@ -1906,7 +1907,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content p {
-  color: #ffffff;
+  color: #002e5b;
   max-width: 485px;
   margin-bottom: 0;
   margin-top: 13px;
@@ -2888,6 +2889,7 @@ Services Area CSS
 
 .single-box {
   top: -180px;
+  box-shadow: 0 0 2px #002e5b;
   text-align: center;
   border-radius: 5px;
   position: relative;

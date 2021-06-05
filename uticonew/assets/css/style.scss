@@ -1862,9 +1862,9 @@ Navbar Area CSS
 Main Banner Area CSS
 =================================================*/
 .main-banner {
-    height: 970px;
+    height: 770px;
     position: relative;
-    z-index: 2;
+    // z-index: 2;
     background: {
         position: center center;
         size: cover;
@@ -2850,6 +2850,7 @@ Services Area CSS
 }
 .single-box {
     top: -180px;
+    box-shadow: 0 0 2px #002e5b;
     text-align: center;
     border-radius: 5px;
     position: relative;
