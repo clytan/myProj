@@ -3064,7 +3064,7 @@ Why Choose Us Area CSS
 
 .why-choose-us-content {
   background-color: #002e5b;
-  background-image: url(../../assets/img/why-choose-bg.jpg);
+  background-image: url(https://webeefy.com/uticome2/assets/images/slider/slide2.jpg);
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3169,15 +3169,15 @@ Why Choose Us Area CSS
 }
 
 .why-choose-us-image.bg1 {
-  background-image: url(../../assets/img/why-choose-img1.jpg);
+  background-image: url(../../assets/img/c3.jpg);
 }
 
 .why-choose-us-image.bg2 {
-  background-image: url(../../assets/img/why-choose-img2.jpg);
+  background-image: url(../../assets/img/c1.jpg);
 }
 
 .why-choose-us-image.bg3 {
-  background-image: url(../../assets/img/why-choose-img3.jpg);
+  background-image: url(../../assets/img/c3.jpg);
 }
 
 .why-choose-us-image img {
@@ -4813,15 +4813,15 @@ Achievements Area CSS
 }
 
 .single-achievements-image.bg1 {
-  background-image: url(../../assets/img/achievements-img1.jpg);
+  background-image: url(../../assets/img/m2.jpg);
 }
 
 .single-achievements-image.bg2 {
-  background-image: url(../../assets/img/achievements-img2.jpg);
+  background-image: url(../../assets/img/m2.jpg);
 }
 
 .single-achievements-image.bg3 {
-  background-image: url(../../assets/img/achievements-img3.jpg);
+  background-image: url(../../assets/img/m2.jpg);
 }
 
 .single-achievements-image img {
