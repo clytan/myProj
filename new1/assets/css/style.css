@@ -1031,7 +1031,7 @@ header.style2 {top: 30px;}
   -ms-box-shadow: 0 0 20px rgba(0,1,1,.1);
   -o-box-shadow: 0 0 20px rgba(0,1,1,.1);
   box-shadow: 0 0 20px rgba(0,1,1,.1);
-  padding: 0 77px 0 30px;
+  padding: 0 106px 0 30px;
 }
 header.style2 .menu-wrp2{
   background-image: url(../images/mnu2-img.png);
@@ -1089,7 +1089,7 @@ header.style3 {top: -40px;}
   float: left;
   width: 100%;
   line-height: 0;
-  padding: 0 0px 0 30px;
+  padding: 0 0px 0 34px;
   background-color:#020d26;
  
 }
@@ -1162,7 +1162,7 @@ header.style3 {top: -40px;}
 .hdr-srch + .scl-btns2,
 .topbar3 > a.gt-qt + .scl-btns2 {
   float: right;
-  margin-right: 44px;
+  margin-right: 73px;
   padding-right: 40px;
 }
 .hdr-srch + .scl-btns2:before,
