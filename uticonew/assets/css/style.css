@@ -1810,7 +1810,7 @@ Main Banner Area CSS
   background-image: url(https://webeefy.com/uticome2/assets/images/slider/slide1.jpg);
 }
 
-.item-bg2 {
+.item-bg2 { 
   background-image: url(https://webeefy.com/uticome2/assets/images/slider/slide2.jpg);
   background-position: right top !important;
 }
