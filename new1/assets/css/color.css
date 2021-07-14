@@ -90,7 +90,7 @@ nav > div ul ul li a:focus,
 .mnu-cntr ul ul > li:hover > a,
 .mnu-cntr ul ul > li a:focus
 {
-	background-color: #086ad8;
+	background-color: #00c1de;
 }
 
 
@@ -262,7 +262,7 @@ header.style11 nav > div > a:focus,
 .mnu-cntr > ul li:hover > a,
 .mnu-cntr > ul li a:focus
 {
-	color: #086ad8;
+	color: #00c1de;
 }
 
 /*===== Border Color =====*/
@@ -287,7 +287,7 @@ ul.prc-tbl-tb-nv > li.nav-item > a.nav-link:focus,
 blockquote,
 .mnu-wrp
 {
-	border-color: #086ad8;
+	border-color: #00c1de;
 }
 
 /*===== Border Top Color =====*/ 
@@ -307,7 +307,7 @@ blockquote,
 .busns-slut-tbs > ul.nav-tabs li.nav-item a.nav-link:focus,
 .busns-slut-tbs > ul.nav-tabs li.nav-item a.nav-link.active
 {
-	border-bottom-color: #086ad8;
+	border-bottom-color: #00c1de;
 }
 
 /*===== Border Left Color =====*/ 
