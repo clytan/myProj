@@ -1807,26 +1807,24 @@ Main Banner Area CSS
 }
 
 .item-bg1 {
-  background-image: url(../../assets/img/banner/img2.jpg);
+  background-image: url(../../assets/img/banner/main_slider_1.jpg);
 }
 
 .item-bg2 { 
-  background-image: url(../../assets/img/banner/img3.jpg);
-  background-position: right top !important;
+  background-image: url(../../assets/img/banner/main_slider_2.jpg);
 }
 
 .item-bg3 {
-  background-image: url(../../assets/img/banner/img2.jpg);
-  background-position: center top !important;
+  background-image: url(../../assets/img/banner/main_slider_3.jpg);
 }
 
 .item-bg4 {
-  background-image: url(https://webeefy.com/uticome2/assets/images/slider/slider2.jpg);
-  background-position: top left !important;
+  background-image: url(../../assets/img/banner/main_slider_4.jpg);
 }
 
 .item-bg5 {
-  background-image: url(../../assets/img/banner/img2.jpg);
+  background-image: url(../../assets/img/banner/main_slider_5.jpg);
+  background-position: top left !important;
 }
 
 .item-bg6 {
@@ -2995,7 +2993,7 @@ Services Area CSS
   font-size: 12px;
 }
 
-.services-box:hover {
+/* .services-box:hover {
   border-radius: 0;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
@@ -3013,7 +3011,7 @@ Services Area CSS
 
 .services-box:hover .content {
   border-radius: 0;
-}
+} */
 
 /*================================================
 Partner Area CSS
@@ -4363,14 +4361,14 @@ Team Area CSS
   font-weight: 300;
 }
 
-.single-team-box:hover .image img {
+/* .single-team-box:hover .image img {
   -webkit-transform: scale(1.2) rotate(4deg);
           transform: scale(1.2) rotate(4deg);
-}
+} */
 
-.single-team-box:hover .image .social {
+/* .single-team-box:hover .image .social {
   bottom: 15px;
-}
+} */
 
 .team-slides.owl-theme .owl-item .single-team-box {
   -webkit-box-shadow: unset;
@@ -4813,15 +4811,15 @@ Achievements Area CSS
 }
 
 .single-achievements-image.bg1 {
-  background-image: url(../../assets/img/m2.jpg);
+  background-image: url(../../assets/img/img_achievements.jpg);
 }
 
 .single-achievements-image.bg2 {
-  background-image: url(../../assets/img/m2.jpg);
+  background-image: url(../../assets/img/img_achievements.jpg);
 }
 
 .single-achievements-image.bg3 {
-  background-image: url(../../assets/img/m2.jpg);
+  background-image: url(../../assets/img/img_achievements.jpg);
 }
 
 .single-achievements-image img {
